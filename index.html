@@ -18,38 +18,47 @@
   </div>
   <div id="right-section">
     <div id="pep-talk">
-      <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams</p>
-      <p>Sign up <strong>now</strong> to get started.</p>
+      <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <strong>now</strong> to get started.</p>
       <p>You <strong>know</strong> you want to.</p>
     </div>
     <form action="" method="post">
       <h2>Let's do this</h2>
 
-      <div id="form-left-section">
-        <input type="text" name="firstname" id="firstname">
-        <label for="firstname">FIRST NAME</label>
+      <section>
+        <div class="left-form-section">
+          <div class="input-form">
+            <input type="text" name="firstname" id="firstname">
+            <label for="firstname">FIRST NAME</label>
+          </div>
         
-        <input type="email" name="email" id="email">
-        <label for="email">EMAIL</label>
+          <div class="input-form">
+            <input type="email" name="email" id="email">
+            <label for="email">EMAIL</label>
+          </div>
+          <div class="input-form">
+            <input type="password" name="pwd" id="pwd" required>
+            <label for="pwd">PASSWORD</label>
+          </div>
+        </div>
+        <div class="right-form-section">
+          <div class="input-form">
+            <input type="text" name="lastname" id="lastname">
+            <label for="lastname">LAST NAME</label>
+          </div>
+          <div class="input-form">
+            <input type="tel" name="phone" id="phone">
+            <label for="phone">PHONE NUMBER</label>
+          </div>
+        
+          <div class="input-form">
+            <input type="password" name="conf-pwd" id="conf-pwd" required>
+            <label for="conf-pwd">CONFIRM PASSWORD</label>
+          </div>
+        </div>
+      </section>
 
-        <input type="password" name="pwd" id="pwd">
-        <label for="pwd"></label>
-      </div>
-
-      <div id="form-right-section">
-        <input type="text" name="lastname" id="lastname">
-        <label for="lastname">LAST NAME</label>
-
-        <input type="tel" name="phone" id="phone">
-        <label for="phone"></label>
-
-        <input type="password" name="conf-pwd" id="conf-pwd">
-        <label for="conf-pwd">CONFIRM PASSWORD</label>
-      </div>
-
-      <div>
-        <p>Already have an account? <a href="">Log in</a> </p>
-      </div>
+      <button type="submit">Create Account</button>
+      <p>Already have an account? <a href="">Log in</a></p>
     </form>
   </div>
 </body>

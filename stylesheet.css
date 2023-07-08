@@ -11,15 +11,15 @@ html {
   height: 100%;
   width: 100%;
   box-sizing: border-box;
+  font-family: sans-serif, Tahoma, Geneva, Verdana, 'Segoe UI';
 }
 
 body {
   display: flex;
 
-
   justify-content:center;
   height: 100%;
-  width: 70%;
+  max-width: 70%;
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -34,6 +34,8 @@ body {
   flex-direction: column;
   height: 100%;
   width: 100%;
+
+  background-color: #F9FAFB;
 }
 
 #left-section > img {
@@ -76,3 +78,115 @@ body {
   color: white;
 }
 
+#right-section #pep-talk {
+  font-weight: bold;
+  font-size: 1.9rem;
+  line-height: 2.3rem;
+
+  margin-top: 20%;
+  margin-left: 5%;
+}
+
+#pep-talk strong {
+  font-style: italic;
+}
+
+form {
+  height: 35%;
+  margin-top: 7%;
+
+  background-color: #FFFFFF;
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
+}
+
+form h2 {
+  font-weight: bold;
+  font-size: 1.9rem;
+
+  margin-left: 5%;
+}
+
+form section {
+  display: flex;
+
+  gap: 20%;
+
+  margin-left: 5%;
+  margin-top: 7%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+section .left-form-section,
+section .right-form-section {
+  width: 100%;
+  height: 80%;
+}
+
+section input {
+  appearance: none;
+  border-color: #E5E7EB;
+  border-radius: 7px;
+  background-color: #FFFEFE;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+section input:invalid {
+  border-color: red;
+}
+
+section input:focus {
+  border-color: blue;
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
+  outline: 0;
+}
+
+input + label {
+  position: relative;
+  font-size: 1.1rem;
+  top: -4.2rem;
+
+  font-weight: bold;
+  color: rgb(75, 72, 72);
+  letter-spacing: 0.1rem;
+}
+
+section .input-form {
+  margin-bottom: 20%;
+}
+
+.input-form:last-child,
+.input-form:last-child {
+  margin-bottom: 0;
+}
+
+button {
+  background-color: #596D48;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  margin-top: 5%;
+  margin-left: 5%;
+  padding: 2% 7%;
+
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
+}
+
+
+button + p {
+  font-size: 1.5rem;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+p > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #596D48;
+}
