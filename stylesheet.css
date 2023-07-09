@@ -43,6 +43,16 @@ body {
   width: 100%;
 }
 
+#left-section .img-reference,
+#left-section a {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.2rem;
+
+  position:relative;
+  top: -3%;
+}
+
 #logo-banner {
   height: 15%;
   width: 100%;
